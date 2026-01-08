@@ -1,0 +1,15 @@
+{
+  "name": "TG YouTube Downloader",
+  "description": "A trlegram yt video / audio doenloader",
+  "repository": "https://github.com/OnlyNoco/YouTube-Downloader-Bot",
+  "logo": "https://envs.sh/USx.jpg",
+  "buildpacks": [
+    { "url": "heroku/python" }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}

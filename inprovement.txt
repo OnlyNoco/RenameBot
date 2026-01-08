@@ -1,0 +1,5 @@
+[minor fix] in the file upload section auto delete file ext if given by user and mre improvements on the ext detection and processes
+
+[mejor changes] add forcesub 
+
+[minor features] suffix , prefix, dumb channel, send copy to main channel, metadata 
