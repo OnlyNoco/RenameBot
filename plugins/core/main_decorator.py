@@ -147,7 +147,6 @@ async def upload_file_callback(client:Bot, query: CallbackQuery):
 
 
     except Exception as e:
-        TRACE("callback EXCEPTION", error=str(e))
         await pros_msg.edit_text(f"Error occurred: {e}")
     finally:
         # cleanup
